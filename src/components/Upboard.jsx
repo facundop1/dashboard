@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Upboard() {
     return (
-        <div class="bg-gray-light    flex justify-between items-center p-[20px]">
+        <div class="bg-gray-light    flex justify-between items-center p-[13px]">
 
             <div class="bg-upboard-menu w-14 h-14 bg-cover " />
             
