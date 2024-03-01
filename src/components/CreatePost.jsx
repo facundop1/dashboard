@@ -4,9 +4,9 @@ export default function CreatePost() {
     return (
         <div className="p-4">
             <section className="bg-slate-800 p-4 rounded">
-
                 <p className="text-white mb-2">Crear nuevo post</p>
                 <div className="border-t-[0.1rem] border-red-600" />
+                
                 <section className="mt-4">
                     <div className="mb-4">
                         <p className="text-white mb-2">Titulo</p>
