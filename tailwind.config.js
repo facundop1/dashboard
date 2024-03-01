@@ -9,6 +9,7 @@ module.exports = {
         "logo": "url('/src/assets/favicon.png')",
         "sideboard-correo": "url('/src/assets/correo.png')",
         "sideboard-noti": "url('/src/assets/notificacion.png')",
+        "sideboard-cross": "url('/src/assets/close.png')",
       },
       colors: {
         'blue': '#1fb6ff',
