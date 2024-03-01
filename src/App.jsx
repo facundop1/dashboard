@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Upboard />
-      <Sideboard />
+
     </div>
     
     
