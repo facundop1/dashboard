@@ -4,9 +4,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+<<<<<<< HEAD
         "sideboard-pfp": "url('/src/assets/foto-perfil.jpg')",
         "upboard-menu": "url('/src/assets/menu.png')",
         "logo": "url('/src/assets/favicon.png')",
+=======
+        "sideboard-pfp": "url('/src/assets/profile-user.png')",
+>>>>>>> b992b2b7049572d255c5a1f30cf7c20d9e11f444
       },
       colors: {
         'blue': '#1fb6ff',

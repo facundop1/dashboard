@@ -4,7 +4,7 @@ export default function Sideboard() {
     return (
         <div>
             <section class="">
-                <div class="" />
+                <div class="bg-sideboard-pfp w-20 h-20 bg-cover" />
             </section>
             <div class="">
                 <p>Dashboard</p>
