@@ -18,7 +18,7 @@ export default function Sideboard() {
 
             <section class="bg-slate-800 px-4 pb-4 flex flex-col gap-2">
                 <p class="text-white">Crear nuevo post</p>
-                <p class="text-white">Actualizar post</p>
+                <p class="text-white">Editar post</p>
                 <p class="text-white">Eliminar post</p>
             </section>
 
