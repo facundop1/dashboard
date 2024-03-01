@@ -10,11 +10,13 @@ export default function Sideboard() {
                     <p class="text-green">● online</p>
                 </div>
             </section>
-            <div class="bg-slate-800 p-4 shadow-md">
-                <p class="text-center text-white">Dashboard</p>
+
+            <div class="bg-slate-800 p-4">
+                <p class=" text-white pb-2">Dashboard</p>
+                <div class="border-t-[0.1rem] border-red-600"></div>
             </div>
 
-            <section class="bg-slate-800 px-4 pb-4">
+            <section class="bg-slate-800 px-4 pb-4 flex flex-col gap-2">
                 <p class="text-white">Crear nuevo post</p>
                 <p class="text-white">Actualizar post</p>
                 <p class="text-white">Eliminar post</p>
