@@ -1,14 +1,15 @@
 import Sideboard from './components/Sideboard';
+import Upboard from './components/Upboard';
 import './input.css';
 
 function App() {
   return (
     <div>
+    <Upboard />
     <Sideboard />
-      <h1 class="font-black text-7xl">
-        Holaaaaa xd
-      </h1>
     </div>
+    
+    
   );
 }
 
