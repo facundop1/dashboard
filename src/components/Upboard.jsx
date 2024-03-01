@@ -3,9 +3,15 @@ import React from 'react'
 export default function Upboard() {
     return (
         <div class="flex">
-            <section class="">
-                <div class="" />
-            </section>
+            
+                <div class="bg-upboard-menu w-10 h-10 bg-cover" />
+                <div class="bg-logo w-10 h-10 bg-cover" />
+                <p class="text-blue font-sans ">Fagu</p>    
+           
+           
+           
+           
+           
             <div class="">
                 <p>Login</p>
             </div>
