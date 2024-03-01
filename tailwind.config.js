@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "sideboard-pfp": "url('/src/assets/foto-perfil.jpg')",
+        "sideboard-pfp": "url('/src/assets/profile-user.png')",
       },
     },
   },
