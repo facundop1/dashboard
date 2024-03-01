@@ -1,12 +1,15 @@
-
 import React, { useState } from 'react';
-import Sideboard from './Sideboard'; 
+import Sideboard from './Sideboard';
 
 export default function Upboard() {
     const [sideboardVisible, setSideboardVisible] = useState(false);
 
     const toggleSideboard = () => {
         setSideboardVisible(!sideboardVisible);
+    };
+
+    const closeSideboard = () => {
+        setSideboardVisible(false);
     };
 
     return (
@@ -23,7 +26,7 @@ export default function Upboard() {
                     <p>Profile</p>
                 </div>
             </section>
-            {sideboardVisible && <Sideboard />}
+            {sideboardVisible && <Sideboard closeSideboard={closeSideboard} />}
         </div>
     );
 }
