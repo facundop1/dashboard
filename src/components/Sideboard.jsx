@@ -19,7 +19,7 @@ export default function Sideboard() {
                                 <p className="text-green">● online</p>
                             </div>
                         </div>
-                        <div className="bg-sideboard-cross w-3 h-3 bg-cover" onClick={toggleSideboard} />
+                        <div className="bg-sideboard-cross w-3 h-3 bg-cover cursor-pointer" onClick={toggleSideboard} />
                     </section>
 
                     <div className="bg-slate-800 p-4">
