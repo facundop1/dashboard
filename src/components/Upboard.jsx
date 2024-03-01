@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Sideboard from './Sideboard'; 
 
@@ -11,7 +10,7 @@ export default function Upboard() {
 
     return (
         <div className="bg-gray-light flex justify-between items-center p-[13px]">
-            <div className="bg-upboard-menu w-14 h-14 bg-cover" onClick={toggleSideboard} />
+            <div className="bg-upboard-menu w-14 h-14 bg-cover"  onClick={toggleSideboard} />
             <div className="bg-logo w-16 h-16 bg-cover" />
             <section className="flex items-center gap-[40px]">
                 <div className="flex">
@@ -22,8 +21,12 @@ export default function Upboard() {
                     <div className="bg-sideboard-pfp w-14 h-14 bg-cover" />
                     <p>Profile</p>
                 </div>
+                <div className={'block'}>
+                {sideboardVisible && <Sideboard />}
+            </div>
             </section>
-            {sideboardVisible && <Sideboard />}
+           
         </div>
+        
     );
 }
