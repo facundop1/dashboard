@@ -7,6 +7,8 @@ module.exports = {
         "sideboard-pfp": "url('/src/assets/profile-user.png')",
         "upboard-menu": "url('/src/assets/menu.png')",
         "logo": "url('/src/assets/favicon.png')",
+        "sideboard-correo": "url('/src/assets/correo.png')",
+        "sideboard-noti": "url('/src/assets/notificacion.png')",
       },
       colors: {
         'blue': '#1fb6ff',
