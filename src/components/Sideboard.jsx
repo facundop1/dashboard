@@ -7,11 +7,13 @@ export default function Sideboard() {
                 <div class="" />
             </section>
             <div class="">
-                <p>General</p>
+                <p>Dashboard</p>
             </div>
 
             <section class="">
-                <p class=""></p>
+                <p class="">Crear nuevo post</p>
+                <p class="">Actualizar post</p>
+                <p class="">Eliminar post</p>
             </section>
 
         </div>

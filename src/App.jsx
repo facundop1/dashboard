@@ -4,10 +4,7 @@ import './input.css';
 function App() {
   return (
     <div>
-    <Sideboard />
-      <h1 class="font-black text-7xl">
-        Holaaaaa xd
-      </h1>
+      <Sideboard />
     </div>
   );
 }
