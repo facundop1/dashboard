@@ -7,8 +7,6 @@ function App() {
   return (
     <div>
       <Upboard />
-      <Sideboard />
-      <CreatePost />
     </div>
     
     
