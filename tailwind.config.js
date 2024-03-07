@@ -10,6 +10,8 @@ module.exports = {
         "sideboard-correo": "url('/src/assets/correo.png')",
         "sideboard-noti": "url('/src/assets/notificacion.png')",
         "sideboard-cross": "url('/src/assets/close.png')",
+        "login-user": "url('/src/assets/user.png')",
+        "login-password": "url('/src/assets/password.png')",
       },
       colors: {
         'blue': '#1fb6ff',
