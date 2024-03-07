@@ -12,6 +12,7 @@ module.exports = {
         "sideboard-cross": "url('/src/assets/close.png')",
         "login-user": "url('/src/assets/user.png')",
         "login-password": "url('/src/assets/password.png')",
+        "deletepost-trash": "url('/src/assets/delete.png')",
       },
       colors: {
         'blue': '#1fb6ff',
